@@ -10,7 +10,7 @@ export default class Orgchart extends React.Component<IOrgchartProps, {}> {
         <div className={ styles.container }>
           <div className={ styles.row }>
             <div className={ styles.column }>
-              <span className={ styles.title }>Welcome to SharePoint framework in to Azure devops!</span>
+              <span className={ styles.title }>Hi, Welcome to SharePoint framework in to Azure devops!</span>
               <p className={ styles.subTitle }>This is ADC Demo, Customize SharePoint experiences using Web Parts with Devops.</p>
               <p className={ styles.description }>{escape(this.props.description)}</p>
               <a href="https://aka.ms/spfx" className={ styles.button }>
